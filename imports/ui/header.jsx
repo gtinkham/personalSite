@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react';
 
 
@@ -16,7 +17,9 @@ class Header extends Component{
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" href="#Home">GrantPage</a>
+                        <a className="navbar-brand" href="#Home">
+                            <img src="./doMore.jpg" alt=""/>
+                        </a>
                     </div>
                     <div id="items" className="navbar-collapse navbar-right collapse">
                         <ul className="nav navbar-nav">
