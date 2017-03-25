@@ -1,4 +1,3 @@
-
 import React, {Component} from 'react';
 
 
@@ -17,25 +16,25 @@ class Header extends Component{
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" href="#Home">
-                            <img src="./doMore.jpg" alt=""/>
+                        <a  href="#home">
+                            <img src="images/doMore.jpg" className="navbar-brand"/>
                         </a>
                     </div>
                     <div id="items" className="navbar-collapse navbar-right collapse">
                         <ul className="nav navbar-nav">
                             <li className="dropdown">
-                                    <a href="home">Home</a>
+                                    <a href="#home">Home</a>
                             </li>
                             <li className="dropdown">
-                                <a href="skills">Skills</a>
+                                <a href="#skills">Skills</a>
                             </li>
                             <li className="dropdown">
-                                <a href="experience">Experience</a>
+                                <a href="#experience">Experience</a>
                             </li>
                             <li className="dropdown">
-                                <a href="hobbies">Hobbies</a>
+                                <a href="#hobbies">Hobbies</a>
                             </li>
-                            <li><a href="socialMedia">Social Media</a></li>
+                            <li><a href="#socialMedia">Social Media</a></li>
                         </ul>
                     </div>
                 </div>
